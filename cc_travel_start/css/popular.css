@@ -91,44 +91,32 @@
 }
 
 .california {
-    background-image: url(../img/place/california.png);
-    background-size: 500px 300px;
-    height:204px;
-    width:362px;
     grid-area: california;
   }
+
+/* .california > section > a{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+} */                            
+/* NOTE something like this, it's maybe under picture */
   
   .korola {
-    background-image: url(../img/place/korola_megna.png);
-    height:204px;
-    width:362px;
     grid-area: korola;
   }
   
   .london {
-    background-image: url(../img/place/london.png);
-    height:204px;
-    width:362px;
     grid-area: london;
   }
 
   .miami {
-    background-image: url(../img/place/miami.png);
-    height:204px;
-    width:362px;
     grid-area: miami;
   }
 
   .california2 {
-    background-image: url(../img/place/california_2.png);
-    height:204px;
-    width:362px;
     grid-area: california2;
   }
 
   .saintmartine {
-    background-image: url(../img/place/iceland.png);
-    height:204px;
-    width:362px;
     grid-area: saintmartine;
   }
