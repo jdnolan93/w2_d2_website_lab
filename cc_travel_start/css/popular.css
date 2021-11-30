@@ -1,0 +1,44 @@
+.popular_destinations {
+    display: grid;
+    grid-template-areas:
+    'italy brazil america'
+    'nepal maldives indonesia';
+    grid-template-columns: 30% 30% 30%;
+}
+
+.italy {
+    background-image: url(../img/destination/italy.png);
+    padding: 3%;
+    grid-area: italy;
+  }
+  
+  .brazil {
+    background-image: url(../img/destination/brazil.png);
+    padding: 3%;
+    grid-area: brazil;
+  }
+  
+  .america {
+    background-image: url(../img/destination/america.png);
+    padding: 3%;
+    grid-area: america;
+  }
+
+  .nepal {
+    background-image: url(../img/destination/nepal.png);
+    padding: 3%;
+    grid-area: nepal;
+  }
+
+  .maldives {
+    background-image: url(../img/destination/maldives.png);
+    padding: 3%;
+    grid-area: maldives;
+  }
+
+  .indonesia_pop {
+    background-image: url(../img/destination/indonesia.png);
+    padding: 3%;
+    grid-area: indonesia;
+  }
+
