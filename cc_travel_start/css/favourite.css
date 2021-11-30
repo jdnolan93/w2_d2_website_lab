@@ -1,13 +1,21 @@
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
+    padding: 3%;
   }
   
   .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
+    padding: 3%;
   }
   
   .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
+    padding: 3%;
   }
+
+.favourite {
+  display: flex;
+  justify-content: space-around;
+}
   
   
