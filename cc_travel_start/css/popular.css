@@ -1,44 +1,134 @@
 .popular_destinations {
     display: grid;
     grid-template-areas:
+    'heading heading heading'
+    'subheading subheading subheading'
     'italy brazil america'
     'nepal maldives indonesia';
+    row-gap: 5%;
+    justify-content: space-around;
     grid-template-columns: 30% 30% 30%;
+}
+
+.popular_destinations > h2 {
+    grid-area: heading;
+
+}
+
+.popular_destinations > h4 {
+    grid-area: subheading;
+    
 }
 
 .italy {
     background-image: url(../img/destination/italy.png);
-    padding: 3%;
+    background-size: 500px 300px;
+    height:270px;
+    width:362px;
     grid-area: italy;
   }
   
   .brazil {
     background-image: url(../img/destination/brazil.png);
-    padding: 3%;
+    height:270px;
+    width:362px;
     grid-area: brazil;
   }
   
   .america {
     background-image: url(../img/destination/america.png);
-    padding: 3%;
+    height:270px;
+    width:362px;
     grid-area: america;
   }
 
   .nepal {
     background-image: url(../img/destination/nepal.png);
-    padding: 3%;
+    height:270px;
+    width:362px;
     grid-area: nepal;
   }
 
   .maldives {
     background-image: url(../img/destination/maldives.png);
-    padding: 3%;
+    height:270px;
+    width:362px;
     grid-area: maldives;
   }
 
   .indonesia_pop {
     background-image: url(../img/destination/indonesia.png);
-    padding: 3%;
+    height:270px;
+    width:362px;
     grid-area: indonesia;
   }
 
+
+
+/* #NEW SECTION */
+
+
+.popular_places {
+    display: grid;
+    grid-template-areas:
+    'pop_heading pop_heading pop_heading'
+    'pop_subheading pop_subheading pop_subheading'
+    'california korola london'
+    'miami california2 saintmartine';
+    row-gap: 5%;
+    justify-content: space-around;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.popular_places > h2 {
+    grid-area: pop_heading;
+
+}
+
+.popular_places > h4 {
+    grid-area: pop_subheading;
+    
+}
+
+.california {
+    background-image: url(../img/place/california.png);
+    background-size: 500px 300px;
+    height:204px;
+    width:362px;
+    grid-area: california;
+  }
+  
+  .korola {
+    background-image: url(../img/place/korola_megna.png);
+    height:204px;
+    width:362px;
+    grid-area: korola;
+  }
+  
+  .london {
+    background-image: url(../img/place/london.png);
+    height:204px;
+    width:362px;
+    grid-area: london;
+  }
+
+  .miami {
+    background-image: url(../img/place/miami.png);
+    height:204px;
+    width:362px;
+    grid-area: miami;
+  }
+
+  .california2 {
+    background-image: url(../img/place/california_2.png);
+    height:204px;
+    width:362px;
+    grid-area: california2;
+  }
+
+  .saintmartine {
+    background-image: url(../img/place/iceland.png);
+    height:204px;
+    width:362px;
+    grid-area: saintmartine;
+  }
